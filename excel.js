@@ -9,8 +9,6 @@ let data=[{
     "data":"scd",
     "abc":"sdef"
 }]
-
-
 document.getElementById('button').addEventListener("click", () => {
     XLSX.utils.json_to_sheet(data, 'out.xlsx');
 	console.log(XLSX.utils.json_to_sheet(data, 'out.xlsx'));
